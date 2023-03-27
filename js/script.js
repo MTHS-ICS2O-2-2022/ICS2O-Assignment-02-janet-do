@@ -6,12 +6,12 @@
 "use strict"
 function calculate() {
   // input
-  const base = parseInt(document.getElementById("base").value)
+  const radius = parseInt(document.getElementById("radius").value)
   const height = parseInt(document.getElementById("height").value)
 
   // process
-  const area = base * height / 2
+  const volume = 3.14 * radius**2 * height
 
   // output
-  document.getElementById("area").innerHTML = "Area is: " + area + " cm²"
+  document.getElementById("volume").innerHTML = "volume: " + volume + " cm²"
 }
