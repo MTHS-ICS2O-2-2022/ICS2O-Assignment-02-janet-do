@@ -13,5 +13,5 @@ function calculate() {
   const volume = 3.14 * radius**2 * height
 
   // output
-  document.getElementById("volume").innerHTML = "volume: " + volume + " cm²"
+  document.getElementById("volume").innerHTML = "volume: " + volume + " cm³"
 }
