@@ -46,10 +46,10 @@ body {
   font-size: 1.25rem;
 }
 
-#fanta-bottle {
-  display: block;
-  height: auto;
-  width: auto;
-  max-width: 300px;
-  max-height: 300px;    
+#cylinder-image img {
+  max-width: 500px;
+  max-height: 500px;
+  margin-left: 500px;
+  margin-right: 500px;
+  margin-top: -500px;
 }
