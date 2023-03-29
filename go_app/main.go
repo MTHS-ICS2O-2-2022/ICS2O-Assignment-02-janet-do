@@ -21,7 +21,7 @@ func main() {
 	fmt.Println()
 
 	// process
-	volume := 3.14 * math.Pow(radius, 2) * height
+	volume := math.Pi * math.Pow(radius, 2) * height
 
 	// output
 	fmt.Printf("The volume of the cylinder is: %.2f cm³\n", volume)
