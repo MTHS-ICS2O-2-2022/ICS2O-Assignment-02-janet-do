@@ -1,7 +1,7 @@
 // Created by: Janet
 // Created on: Sep 2020
 //
-// This program finds the area of a triangle
+// This program finds the volume of a cylinder
 
 package main
 
