@@ -1,14 +1,11 @@
 // Created by: Janet
 // Created on: Sep 2020
 //
-// This program finds the volume of a cylinder
+// This program finds the area of a triangle
 
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "fmt"
 
 func main() {
 	// input
@@ -25,4 +22,3 @@ func main() {
 	// output
 	fmt.Printf("The volume of the cylinder is: %.2f cm³\n", volume)
 }
-
