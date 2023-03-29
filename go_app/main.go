@@ -17,8 +17,8 @@ func main() {
 	fmt.Print("Enter the radius of the cylinder (in cm): ")
 	fmt.Scanln(&radius)
 	fmt.Print("Enter the height of the cylinder (in cm): ")
-	fmt.Println()
 	fmt.Scanln(&height)
+	fmt.Println()
 
 	// process
 	volume := 3.14 * math.Pow(radius, 2) * height
